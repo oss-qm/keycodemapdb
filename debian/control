@@ -1,0 +1,14 @@
+Source: keycodemapdb
+Section: devel
+Priority: optional
+Maintainer: Enrico Weigelt, metux IT consult <info@metux.net>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9), python, python-argparse
+Vcs-Git: git@github.com:oss-qm/keycodemapdb.git
+Vcs-Browser: https://github.com/oss-qm/keycodemapdb
+
+Package: keycodemapdb
+Architecture: any
+Depends: python, python-argparse, ${misc:Depends}
+Multi-Arch: foreign
+Description: Code generator for keympap translation tables
